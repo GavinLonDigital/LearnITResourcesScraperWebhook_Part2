@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/LearnITResourcesScraperWebhookapi/apis/LearnITResourcesScraperWebhook",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/LearnITResourcesScraperWebhook/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsScrapeCaptureDbContext_83BA8C0914",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/learnitresourcesscraperwebhookdbserver/databases/LearnITResourcesScraperWebhook_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ScrapeCaptureDbContext",
+      "dynamicId": null
+    },
+    "storage1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/LearnITResourcesScraperWebhook/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsQueueConnection_8E65F5115D, /subscriptions/c78b50fb-2ec0-4819-a14f-2d761da664b7/resourcegroups/rgtemp/providers/Microsoft.Web/sites/LearnITResourcesScraperWebhook/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsQueueConnection_D4B74ED7E5",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/tempscraper",
+      "type": "storage.azure",
+      "connectionId": "ConnectionStrings:QueueConnection",
+      "dynamicId": null
+    }
+  }
+}

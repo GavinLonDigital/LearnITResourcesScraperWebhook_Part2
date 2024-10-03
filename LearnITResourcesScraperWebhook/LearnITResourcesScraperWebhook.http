@@ -1,0 +1,6 @@
+@LearnITResourcesScraperWebhook_HostAddress = http://localhost:5262
+
+GET {{LearnITResourcesScraperWebhook_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
